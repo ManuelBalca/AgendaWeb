@@ -34,11 +34,11 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./Index.html">Inicio <span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="./favoritos.html">Favoritos</a>
+          <a class="nav-link" href="./Index.html">Inicio</a>
+        </li>
+        <li class="nav-item nav-item active">
+          <a class="nav-link" href="./favoritos.html">Favoritos<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Lista de Tereas</a>
@@ -47,7 +47,6 @@
       <form class="form-inline my-2 my-lg-0">
         <a href="./Perfil.html"><img class="mr-sm-2"src="./assets/images/usuario.png" width="35" height="35"></a>
         <button class="btn btn-outline-success my-2 my-sm-0"><a href="./login.html">login</a></button>
-
       </form>
     </div>
   </nav>
@@ -58,7 +57,7 @@
   <div class="content">
 
     <div class="container">
-      <h2 class="mb-5">Lista de contactos</h2>
+      <h2 class="mb-5">Lista de contactos Favoritos</h2>
 
       <div class="table-responsive">
 
@@ -87,31 +86,6 @@
               <td><img src="./assets/images/estrella (1).png" width="20" height="20"></td>
 
             </tr>
-
-            <tr>
-              <td><a href="./contactinfo.html"><img src="./assets/images/informacion.png" width="20" height="20"></a></td>
-              <td>Matthew Wasil</td>
-              <td>
-                example@gmail.com
-              </td>
-              <td>+02 020 3994 929</td>
-              <td><img src="./assets/images/pluma.png" width="35" height="35"></td>
-              <td><img src="./assets/images/trash.png" width="35" height="35"></td>
-              <td><img src="./assets/images/estrella.png" width="20" height="20"></td>
-            </tr>
-            <tr>
-              <td><a href="./contactinfo.html"><img src="./assets/images/informacion.png" width="20" height="20"></a></td>
-              <td>Jorge Perez</td>
-              <td>
-                example@gmail.com
-              </td>
-              <td>+502 3994 5929</td>
-              <td><img src="./assets/images/pluma.png" width="35" height="35"></td>
-              <td><img src="./assets/images/trash.png" width="35" height="35"></td>
-              <td><img src="./assets/images/estrella.png" width="20" height="20"></td>
-            </tr>
-
-
             <tr>
 
               <td><a href="./contactinfo.html"><img src="./assets/images/informacion.png" width="20" height="20"></a></td>
@@ -143,59 +117,19 @@
 
 
     </div>
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-3">
-        <img id="show-form-btn" src="./assets/images/mas.png" width="35" height="35">
-      </div>
-      <br>
-      <form class="formulario">
-        <br>
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-3">
-            <h2 class="mb-5">Añadir contacto</h2>
-            <div class="form-group">
-              <label>Nombre</label>
-              <input type="text" class="form-control"
-                placeholder="Ingrese un nombre">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Ingrese un email">
-            </div>
-            <div class="form-group">
-              <label>Telefono</label>
-              <input type="text" class="form-control"
-                placeholder="Ingrese un telefono">
-            </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
-          </div>
-        </div>
-      </form>
-    </div>
   </div>
 
 
-  <script>
-    const showFormBtn = document.querySelector("#show-form-btn");
-    const formulario = document.querySelector(".formulario");
 
-    showFormBtn.addEventListener("click", function () {
-      if (formulario.style.display === "none") {
-        formulario.style.display = "block";
-      } else {
-        formulario.style.display = "none";
-      }
-    });
-  </script>
   <script src="./assets/JS/jquery-3.3.1.min.js"></script>
   <script src="./assets/JS/popper.min.js"></script>
   <script src="./assets/JS/bootstrap.min.js"></script>
   <script src="./assets/JS/main.js"></script>
 
 </body>
+<br>
+<br>
+<br>
 <!-- Site footer -->
 <footer class="site-footer">
   <div class="container">
